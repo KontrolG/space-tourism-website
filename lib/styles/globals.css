@@ -1,4 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  @apply bg-black text-white;
+}
+
+.container {
+  @apply mx-auto max-w-xs;
+}
