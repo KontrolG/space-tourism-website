@@ -1,6 +1,7 @@
 const IMAGES_PATH = "/images";
 const HOME_IMAGES_PATH = `${IMAGES_PATH}/home`;
 const DESTINATION_IMAGES_PATH = `${IMAGES_PATH}/destination`;
+const CREW_IMAGES_PATH = `${IMAGES_PATH}/crew`;
 
 module.exports = {
   content: [
@@ -15,7 +16,8 @@ module.exports = {
     },
     backgroundImage: {
       "home-sm": `url(${HOME_IMAGES_PATH}/background-home-mobile.jpg)`,
-      "destination-sm": `url(${DESTINATION_IMAGES_PATH}/background-destination-mobile.jpg)`
+      "destination-sm": `url(${DESTINATION_IMAGES_PATH}/background-destination-mobile.jpg)`,
+      "crew-sm": `url(${CREW_IMAGES_PATH}/background-crew-mobile.jpg)`
     },
     extend: {
       colors: {
