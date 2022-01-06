@@ -35,3 +35,7 @@ yarn-error.log*
 
 # VSCode
 .vscode/settings.json
+
+# To opt-in SWC in production.
+.babelrc
+
