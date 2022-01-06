@@ -8,5 +8,5 @@ html {
 }
 
 .container {
-  @apply mx-auto max-w-xs;
+  @apply mx-auto max-w-xs w-11/12;
 }
