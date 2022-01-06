@@ -1,5 +1,6 @@
 const IMAGES_PATH = "/images";
 const HOME_IMAGES_PATH = `${IMAGES_PATH}/home`;
+const DESTINATION_IMAGES_PATH = `${IMAGES_PATH}/destination`;
 
 module.exports = {
   content: [
@@ -13,7 +14,8 @@ module.exports = {
       serif: ["Bellefair", "serif"]
     },
     backgroundImage: {
-      "home-sm": `url(${HOME_IMAGES_PATH}/background-home-mobile.jpg)`
+      "home-sm": `url(${HOME_IMAGES_PATH}/background-home-mobile.jpg)`,
+      "destination-sm": `url(${DESTINATION_IMAGES_PATH}/background-destination-mobile.jpg)`
     },
     extend: {
       colors: {

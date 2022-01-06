@@ -1,6 +1,6 @@
 import { Link } from "@/components/common/routing/link";
 import { PageLayout } from "@/components/layouts/page-layout";
-import { DESTINATION_PATH } from "@/constants/paths";
+import { DESTINATION_ROOT_PATH } from "@/constants/paths";
 
 function HomePageLayout() {
   return (
@@ -24,7 +24,7 @@ function HomePageLayout() {
           <div className="text-center mt-10">
             <Link
               className="rounded-full bg-white w-[7.5em] h-[7.5em] inline-flex justify-center items-center text-black font-serif text-xl uppercase tracking-[1.25px] hover:ring-[2.25em] ring-white ring-opacity-10 transition-shadow"
-              href={DESTINATION_PATH}
+              href={DESTINATION_ROOT_PATH}
             >
               Explore
             </Link>
