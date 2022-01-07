@@ -4,7 +4,7 @@ import { Navigation } from "../navigation";
 
 function Header() {
   return (
-    <div className="container pt-6 lg:pt-10 flex justify-between items-center z-10">
+    <div className="container xl:max-w-7xl pt-6 lg:pt-10 flex justify-between items-center z-10">
       <Link href={HOME_PATH}>
         <img
           src={SHARED_IMAGES_PATH + "/logo.svg"}
