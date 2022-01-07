@@ -18,6 +18,7 @@ module.exports = {
     backgroundImage: {
       "home-sm": `url(${HOME_IMAGES_PATH}/background-home-mobile.jpg)`,
       "home-md": `url(${HOME_IMAGES_PATH}/background-home-tablet.jpg)`,
+      "home-lg": `url(${HOME_IMAGES_PATH}/background-home-desktop.jpg)`,
       "destination-sm": `url(${DESTINATION_IMAGES_PATH}/background-destination-mobile.jpg)`,
       "destination-md": `url(${DESTINATION_IMAGES_PATH}/background-destination-tablet.jpg)`,
       "crew-sm": `url(${CREW_IMAGES_PATH}/background-crew-mobile.jpg)`,
