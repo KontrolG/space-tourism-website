@@ -7,6 +7,16 @@ html {
   @apply bg-black text-white;
 }
 
-.container {
-  @apply mx-auto max-w-xs md:max-w-2xl w-11/12;
+@layer components {
+  .container {
+    @apply mx-auto max-w-xs md:max-w-2xl w-11/12;
+  }
+
+  .overlapping-children {
+    @apply grid;
+  }
+
+  .overlapping-children > * {
+    @apply col-start-1 row-start-1;
+  }
 }
