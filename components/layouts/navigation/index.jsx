@@ -23,7 +23,7 @@ function Navigation() {
       </button>
       <div
         className={classes(
-          "bg-white bg-opacity-5 backdrop-blur-xl h-screen lg:h-auto w-[254px] lg:w-auto transition-transform duration-500 fixed top-0 lg:top-auto right-0 z-10 lg:translate-x-0 lg:pl-20 xl:pl-32 lg:pr-28 xl:pr-40",
+          "bg-white bg-opacity-5 backdrop-blur-xl h-screen lg:h-auto w-[254px] lg:w-auto transition-transform duration-500 fixed lg:absolute top-0 lg:top-auto right-0 z-10 lg:translate-x-0 lg:pl-20 xl:pl-32 lg:pr-28 xl:pr-40",
           !isOpenMenu && "translate-x-full"
         )}
       >
