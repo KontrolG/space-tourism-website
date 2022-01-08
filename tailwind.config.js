@@ -24,6 +24,7 @@ module.exports = {
       "destination-lg": `url(${DESTINATION_IMAGES_PATH}/background-destination-desktop.jpg)`,
       "crew-sm": `url(${CREW_IMAGES_PATH}/background-crew-mobile.jpg)`,
       "crew-md": `url(${CREW_IMAGES_PATH}/background-crew-tablet.jpg)`,
+      "crew-lg": `url(${CREW_IMAGES_PATH}/background-crew-desktop.jpg)`,
       "technology-sm": `url(${TECHNOLOGY_IMAGES_PATH}/background-technology-mobile.jpg)`,
       "technology-md": `url(${TECHNOLOGY_IMAGES_PATH}/background-technology-tablet.jpg)`
     },
