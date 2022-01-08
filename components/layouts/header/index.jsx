@@ -4,7 +4,7 @@ import { Navigation } from "../navigation";
 
 function Header() {
   return (
-    <div className="container xl:max-w-7xl pt-6 lg:pt-10 flex justify-between items-center z-10">
+    <header className="container xl:max-w-7xl pt-6 lg:pt-10 flex justify-between items-center z-10">
       <Link href={HOME_PATH}>
         <img
           src={SHARED_IMAGES_PATH + "/logo.svg"}
@@ -14,7 +14,7 @@ function Header() {
       </Link>
       <hr className="hidden xl:block absolute border-white ml-28 2xl:ml-48 border-opacity-25 w-[32.8472222vw] z-20" />
       <Navigation />
-    </div>
+    </header>
   );
 }
 
