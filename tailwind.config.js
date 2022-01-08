@@ -26,7 +26,8 @@ module.exports = {
       "crew-md": `url(${CREW_IMAGES_PATH}/background-crew-tablet.jpg)`,
       "crew-lg": `url(${CREW_IMAGES_PATH}/background-crew-desktop.jpg)`,
       "technology-sm": `url(${TECHNOLOGY_IMAGES_PATH}/background-technology-mobile.jpg)`,
-      "technology-md": `url(${TECHNOLOGY_IMAGES_PATH}/background-technology-tablet.jpg)`
+      "technology-md": `url(${TECHNOLOGY_IMAGES_PATH}/background-technology-tablet.jpg)`,
+      "technology-lg": `url(${TECHNOLOGY_IMAGES_PATH}/background-technology-desktop.jpg)`,
     },
     extend: {
       colors: {
