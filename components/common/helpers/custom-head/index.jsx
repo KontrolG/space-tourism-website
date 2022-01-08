@@ -1,18 +1,15 @@
-import React, { ReactNode } from "react";
+import React from "react";
 import Head from "next/head";
+import { SHARED_IMAGES_PATH } from "@/constants/paths";
 
-const CustomHead = ({
+function CustomHead({
   title = "Space Tourism",
   description = "Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!",
-  image = "",
+  image = `${SHARED_IMAGES_PATH}/og-image.jpg`,
   children
-}) => {
+}) {
   return (
     <Head>
-      <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
-      />
       <title key="title">{title}</title>
       <meta name="description" content={description} />
       <meta property="og:title" content={title} />
@@ -25,6 +22,6 @@ const CustomHead = ({
       {children}
     </Head>
   );
-};
+}
 
 export default CustomHead;
